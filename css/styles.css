@@ -496,6 +496,10 @@ img {
   background: var(--second-background-color);
   border: 1px solid var(--border-color);
   border-radius: 4px;
+
+  transition-property: color background border box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .filter-btn:is(:hover, :focus) {
   color: var(--second-color);
